@@ -1,7 +1,5 @@
 # MPC
 A Python toolkit for counting AND gates, multiplicative complexity, and circuit depth in MPC-friendly cryptographic primitives (AES S-box, LowMC S-box).
-# MPC_counter
-
 A lightweight Python toolkit for **profiling the multiplicative complexity** of MPC-friendly cryptographic primitives.
 
 In secure multi-party computation (MPC), only **AND gates** carry a communication cost — XOR gates are "free". This tool counts AND gates, multiplicative depth, and round complexity so you can compare circuit designs without running a full MPC protocol.
